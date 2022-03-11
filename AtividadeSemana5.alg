@@ -1,8 +1,8 @@
-algoritmo "AtividadeSemana4"
-// Função : Conversão
+algoritmo "AtividadeSemana5"
+// FunÃ§Ã£o : ConversÃ£o
 // Autor : Camila Pletsch
-// Data : 04/03/2022
-// Seção de Declarações
+// Data : 11/03/2022
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
 horaMedicao, fahrenheit, celsius, tempCelsius, tempFahrenheit: vetor [1..4] de real
 i: inteiro
@@ -18,7 +18,7 @@ para i de 1 ate 4 faca
    Escreval("Digite a temperatura em Celsius")
    leia(celsius[i])
    tempFahrenheit[i] <- (celsius[i] * 1.8) + 32
-   Escreval("Digite o horário que foi medido")
+   Escreval("Digite o horÃ¡rio que foi medido")
    leia(horaMedicao[i])
 fimpara
 
@@ -56,7 +56,7 @@ para i de 1 ate 4 faca
    Escreval("Digite a temperatura em Fahreneit:")
    leia(fahrenheit[i])
    tempCelsius[i] <- (fahrenheit[i] - 32)/1.8
-   Escreval("Digite o horário que foi medido:")
+   Escreval("Digite o horÃ¡rio que foi medido:")
    leia(horaMedicao[i])
 fimpara
 
@@ -100,8 +100,8 @@ enquanto continuar = 1 faca
       fimse
    fimse
 
-   Escreval("Deseja realizar uma nova conversão?")
-   Escreval("Digite 1 para nova conversão")
+   Escreval("Deseja realizar uma nova conversÃ£o?")
+   Escreval("Digite 1 para nova conversÃ£o")
    Escreval("Digite 0 para encerrar")
    leia(continuar)
 
